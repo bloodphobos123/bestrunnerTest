@@ -1,0 +1,1 @@
+export const getNewWorkoutRun = (state) => state.run.allWorkout;

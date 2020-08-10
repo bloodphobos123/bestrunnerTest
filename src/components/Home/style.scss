@@ -1,0 +1,85 @@
+body {
+  background-image: url('../assets/image/homeBG.jpg');
+  background-size: 100% 100%;
+}
+
+.sport__section {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px;
+  button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 220px;
+    height: 180px;
+    background-size: 100% 100%;
+    font-size: 30px;
+    font-weight: bold;
+    color: crimson;
+    margin: 10px;
+  }
+  button:hover {
+    opacity: 1;
+  }
+}
+
+.cycling {
+  background-image: url('../assets/image/cyclingBG.jpg');
+}
+
+.run {
+  background-image: url('../assets/image/runBG.jpg');
+}
+
+.skiing {
+  background-image: url('../assets/image/skiingBG.jpg');
+}
+
+.walking {
+  background-image: url('../assets/image/walkingBG.jpg');
+}
+
+.Athlete__information {
+  width: 200px;
+  height: 70px;
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+}
+
+
+.Athlete__information-name {
+  color: firebrick;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Athlete__information-lastname {
+  color: firebrick;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Athlete__information_content {
+  color: darkcyan;
+}
+
+.navSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+
+@media(max-width: 1200px) {
+  body {
+   background-image: none;
+   background-color: dimgray;
+  }
+}
